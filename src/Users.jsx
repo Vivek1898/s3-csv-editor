@@ -16,10 +16,6 @@ const Users = () => {
             console.log(error);
         }
     };
-    // UseEffect hook takes function as an argument
-    // This function will be called whenever the component is mounted
-    // The second argument is an array of dependencies
-    // SIDE EFFECTS: Data fetching, subscriptions, or manually changing the DOM
     useEffect(() => {
         fetchUserData();
     }, []);
