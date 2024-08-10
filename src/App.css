@@ -1,0 +1,41 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 10px;
+}
+
+input {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+}
+
+
+/* Add any custom styles here */
+.layout {
+    min-height: 100vh;
+}
+.logo {
+    float: left;
+    width: 120px;
+    height: 31px;
+    /*margin: 16px 24px 16px 0;*/
+    /*background: rgba(255, 255, 255, 0.2);*/
+}
